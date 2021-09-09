@@ -22,3 +22,31 @@
     // Input: s = ""
     // Output: 0
 
+
+function lengthOfLongestSubstring(str) {
+    let a_pointer = 0;
+    let b_pointer = 0;
+    let max = 0;
+
+    let charSet = new Set();
+
+    while (b_pointer < str.length) {
+        if (!charSet.has(str.charAt(b_pointer))) {
+            charSet.add(str.charAt(b_pointer));
+            b_pointer++;
+            max = Math.max(charSet.size, max);
+        } else {
+            charSet.delete(str.charAt(a_pointer));
+            a_pointer++;
+        }
+    }
+
+    return max;
+
+}
+
+console.log(lengthOfLongestSubstring("abcabcbb"))
+console.log(lengthOfLongestSubstring("bbbbb"))
+console.log(lengthOfLongestSubstring("pwwkew"))
+console.log(lengthOfLongestSubstring("lokmmmhy"))
+console.log(lengthOfLongestSubstring("fudddrrweq"))
