@@ -14,9 +14,9 @@ Longest Substring
 
 ## Overview
 
-### The Project
+### The Challenge
 
-
+[![wakatime](https://wakatime.com/badge/github/Pia007/Longest-Substring.svg)](https://wakatime.com/badge/github/Pia007/Longest-Substring)
 Longest Substring
 
 Writing a function that will return the longest substring without repeating characters. 
