@@ -23,27 +23,37 @@
     // Output: 0
 
 
+
 function lengthOfLongestSubstring(str) {
-    let a_pointer = 0;
-    let b_pointer = 0;
-    let max = 0;
+    // create a set to store the longest substring
+    let longestStringLength = 0;
 
-    let charSet = new Set();
+    // Loop through the provided string
+    for (let i = 0; i < str.length; i++) {
+        // Use a set to store the string created from the current point
+        let currentStringSet = new Set();
 
-    while (b_pointer < str.length) {
-        if (!charSet.has(str.charAt(b_pointer))) {
-            charSet.add(str.charAt(b_pointer));
-            b_pointer++;
-            max = Math.max(charSet.size, max);
-        } else {
-            charSet.delete(str.charAt(a_pointer));
-            a_pointer++;
+        // Use an internal loop evaluate the letters from current position
+        for (let x = i; x < str.length; x++) {
+            // Use "has() to check if the current letter exists in the current Set
+            if (currentStringSet.has(str[x])) {
+                // If it does, stop because it already exists in the set
+                break;
+            } else {
+                // Otherwise the letter is added to the set because it's not found
+                currentStringSet.add(str[x]);
+            }
         }
+
+        // if this string is bigger, update the length
+        longestStringLength = Math.max(
+            longestStringLength,
+            currentStringSet.size
+        );
     }
-
-    return max;
-
-}
+    //output the length of the longest non repeating substring
+    return longestStringLength;
+};
 
 console.log(lengthOfLongestSubstring("abcabcbb"))
 console.log(lengthOfLongestSubstring("bbbbb"))
