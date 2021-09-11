@@ -16,16 +16,17 @@ body {
 
 .long-container {
     width: 850px;
-    height: 600px;
+    height: 450px;
     margin: 200px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    color: #ecaf76;
+    color: rgb(106, 228, 201);
     background:  black;
     border-radius: 8px;
-    border: 10px ridge #ecaf76;
+    /* border: 10px ridge #ecaf76; */
+    border: 10px ridge rgb(106, 228, 201);
 }
 .ls-intro {
     margin: auto .5rem;
@@ -41,17 +42,15 @@ body {
 .ls-text-field {
     width: 400px;
     height: 40px;
-    margin: .5rem auto;
+    margin: 1rem auto;
     font-size: 20px;
     color: white;
     background: black;
     outline: none;
     border: none;
-    border-bottom: 5px ridge #ecaf76;
+    border-bottom: 5px ridge rgb(106, 228, 201);
     border-radius: 5px;
     text-align: center;
-    margin-bottom: 0;
-
 }
 .ls-btn-check {
     width: 150px;
@@ -59,25 +58,13 @@ body {
     margin: .5rem auto;
     font-size: 18px;
     font-weight: 600;
-    color: #ecaf76;
+    color: rgb(106, 228, 201);
     background:black;
-    border: 5px ridge #ecaf76;
-    border-radius: 8px;
-    padding-top: 4px;
-    margin-bottom: 10px;
-}
-.ls-btn-reset {
-    width: 150px;
-    height: 40px;
-    margin: .5rem auto;
-    font-size: 18px;
-    font-weight: 600;
-    color: #ecaf76;
-    background:black;
-    border: 5px ridge #ecaf76;
+    border: 5px ridge rgb(106, 228, 201);
     border-radius: 8px;
     padding-top: 4px;
 }
+
 /* STYLING RESPONSES */
 .lsEval {
     text-align: center;
@@ -114,6 +101,10 @@ body {
     .ls-intro,
     .lsEval {
         font-size: .6em;
+    }
+    .ls-btn-check,
+    .ls-btn-reset {
+        font-size: 15px;
     }
 }
 

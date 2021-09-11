@@ -19,9 +19,9 @@ Longest Substring
 [![wakatime](https://wakatime.com/badge/github/Pia007/Longest-Substring.svg)](https://wakatime.com/badge/github/Pia007/Longest-Substring)
 Longest Substring
 
-Writing a function that will return the longest substring without repeating characters. 
+
 Source: [Leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-<!-- ![image](https://user-images.githubusercontent.com/66088725/132406853-0c13d47c-a99b-4ca8-afa9-229facfccd61.png) -->
+For this challenge, write a function that takes in a string and returns the numerical length of the longest non-repeating substring.
 
 
 ### Links
@@ -35,9 +35,8 @@ Source: [Leetcode](https://leetcode.com/problems/longest-substring-without-repea
 
 - Semantic HTML5 Markup
 - JavaScript
-  - Array Methods
   - Document Object Model
-  - Objects
+  - Object Set
   - For Loops
   - Template Literals
 - CSS3
@@ -45,8 +44,7 @@ Source: [Leetcode](https://leetcode.com/problems/longest-substring-without-repea
 
 
 ### What I learned
-
-<!-- Understanding the "two sum" function was a challenge, initially. I had to figure out how to use objects and arrays together. Implementing a dashboard that would give the user feedback was challenging.  -->
+For this challenge, I learned how to initialize an object set to store unique value.
 
 
 ## Author
