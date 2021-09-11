@@ -20,8 +20,8 @@ Longest Substring
 Longest Substring
 
 
-Source: [Leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-For this challenge, write a function that takes in a string and returns the numerical length of the longest non-repeating substring.
+For this [Leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+ challenge, write a function that takes in a string and returns the numerical length of the longest non-repeating substring.
 
 
 ### Links
@@ -44,7 +44,7 @@ For this challenge, write a function that takes in a string and returns the nume
 
 
 ### What I learned
-For this challenge, I learned how to initialize an object set to store unique value.
+For this challenge, I learned how to initialize an object set to store unique values.
 
 
 ## Author
