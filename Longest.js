@@ -28,31 +28,36 @@ function lengthOfLongestSubstring(str) {
     // create a set to store the longest substring
     let longestStringLength = 0;
 
-    // Loop through the provided string
-    for (let i = 0; i < str.length; i++) {
-        // Use a set to store the string created from the current point
-        let currentStringSet = new Set();
-
-        // Use an internal loop evaluate the letters from current position
-        for (let x = i; x < str.length; x++) {
-            // Use "has() to check if the current letter exists in the current Set
-            if (currentStringSet.has(str[x])) {
-                // If it does, stop because it already exists in the set
-                break;
-            } else {
-                // Otherwise the letter is added to the set because it's not found
-                currentStringSet.add(str[x]);
+    // create a set to store the longest substring
+        //Why? JS set cannot contain duplicate elements i.e. it keeps unique elements only.
+        let longestStrLength = 0;
+    
+    
+        // Loop through the provided string
+        for (let i = 0; i < str.length; i++) {
+            // Use a set to store the string created from the current point
+            let stringSet = new Set();
+    
+            // Use an internal loop to evaluate the letters starting at the current point
+            for (let x = i; x < str.length; x++) {
+                // Use has() to check if the current letter exists in the current Set
+                if (stringSet.has(str[x])) {
+                    // If it does, stop because it already exists in the set
+                    break;
+                } else {
+                    // Otherwise the letter is added to the set because it's not found
+                    stringSet = stringSet.add(str[x]);
+                }
             }
+            
+            // assign longestStrLength to the greater numerical value(longestStrLength or stringSet)
+            longestStrLength = Math.max(
+                longestStrLength,
+                stringSet.size
+            );
         }
-
-        // if this string is bigger, update the length
-        longestStringLength = Math.max(
-            longestStringLength,
-            currentStringSet.size
-        );
-    }
     //output the length of the longest non repeating substring
-    return longestStringLength;
+    return longestStrLength;
 };
 
 console.log(lengthOfLongestSubstring("abcabcbb"))
