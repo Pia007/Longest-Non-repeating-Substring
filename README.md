@@ -10,7 +10,7 @@ Longest Substring
   - [What I learned](#what-i-learned)
   <!-- - [Continued development](#continued-development) -->
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+<!-- - [Acknowledgments](#acknowledgments) -->
 
 ## Overview
 
