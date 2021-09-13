@@ -21,7 +21,14 @@ Longest Substring
 
 
 For this [Leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
- challenge, write a function that takes in a string and returns the numerical length of the longest non-repeating substring.
+challenge, write a function that takes in a string and returns the numerical length of the longest non-repeating substring.
+
+The user inputs a string and if the string meets certain criteria(only letters), it will be evaluate. 
+
+NOTE: The form automatically resets 3 seconds after the string is evaluated.
+FILES: There are two JavaScript files. Main.js contains the function and additional coding neccessary to connect to the html. Longest.js has the plain function.
+
+
 
 ![image](https://user-images.githubusercontent.com/66088725/133118357-b049e674-6140-4164-b9c8-b49e89f28c30.png)
 
