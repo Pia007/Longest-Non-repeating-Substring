@@ -26,8 +26,8 @@ For this [Leetcode](https://leetcode.com/problems/longest-substring-without-repe
 
 ### Links
 
-[GitHub Repository](https://github.com/Pia007/Longest-Substring)
-<!-- - Live Site URL: [Isogram Checker](https://pia007.github.io/Isogram/) -->
+- Solution URL: [GitHub Repository](https://github.com/Pia007/Longest-Substring)
+- Live Site URL: [Isogram Checker](https://pia007.github.io/Longest-Substring/)
 
 ## My process
 
