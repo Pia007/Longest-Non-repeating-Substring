@@ -3,7 +3,7 @@ Longest Substring
 ## Table of contents
 
 - [Overview](#overview)
-  - [The Project](#the-challenge)
+  - [The Challenge](#the-challenge)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -26,7 +26,7 @@ For this [Leetcode](https://leetcode.com/problems/longest-substring-without-repe
 
 ### Links
 
-<!-- - Solution URL: [GitHub Repository](https://github.com/Pia007/Isogram) -->
+[GitHub Repository](https://github.com/Pia007/Longest-Substring)
 <!-- - Live Site URL: [Isogram Checker](https://pia007.github.io/Isogram/) -->
 
 ## My process
