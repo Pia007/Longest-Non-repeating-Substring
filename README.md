@@ -16,7 +16,7 @@ Longest Non-repeating Substring
 
 ### The Challenge
 
-![wakatime](https://wakatime.com/badge/github/Pia007/Longest-Non-repeating-Substring.svg)](https://wakatime.com/badge/github/Pia007/Longest-Non-repeating-Substring)
+[![wakatime](https://wakatime.com/badge/github/Pia007/Longest-Non-repeating-Substring.svg)](https://wakatime.com/badge/github/Pia007/Longest-Non-repeating-Substring)
 
 
 For this [Leetcode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
