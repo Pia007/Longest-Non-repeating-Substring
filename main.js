@@ -10,7 +10,7 @@ const buttonStrReset = document.getElementById("ls-reset-form");
 buttonCheckStr.addEventListener('click', function(e) {
     e.preventDefault();
 });
-buttonCheckStr.addEventListener('click', checkInput);
+buttonCheckStr.addEventListener('click', checkLsInput);
 
 function hideLsOutcome() {
     lsOutcome.style.display ="none";
@@ -25,7 +25,7 @@ function clearLsForm() {
 };
 
 // Check format of input
-function checkInput(str) {
+function checkLsInput(str) {
     var str = document.getElementById("ls-text").value;
 
     // Loop through the string
