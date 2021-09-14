@@ -10,7 +10,7 @@ body {
     font-family: var(--roboto);
     font-size: 36px;
     background: rgb(15, 97, 79);
-    overflow: hidden;
+    overflow-y: hidden;
     text-align: center;
 }
 

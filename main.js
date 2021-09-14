@@ -85,7 +85,7 @@ function lengthOfLongestSubstring(str) {
             stringSet.size
         );
     }
-    // Outputs the length of the longest string
+    // Outputs the length of the longest non-repeating string
     lsOutcome.innerHTML =  "The length of the longest non-repeating string is " + `${longestStrLength}`
     lsOutcome.style.color = "#00FF2A";
     lsOutcome.style.display ="block";
