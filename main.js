@@ -62,7 +62,7 @@ function lengthOfLongestSubstring(str) {
     let longestStrLength = 0;
     
     
-    // Loop through the provided string
+    // Loop through the string
     for (let i = 0; i < str.length; i++) {
         // Use a set to store the string created from the current point
         let stringSet = new Set();
