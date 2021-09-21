@@ -25,8 +25,7 @@
 
 
 function lengthOfLongestSubstring(str) {
-    // create a set to store the longest substring
-    let longestStringLength = 0;
+    
 
     // create a set to store the longest substring
         //Why? JS set cannot contain duplicate elements i.e. it keeps unique elements only.
