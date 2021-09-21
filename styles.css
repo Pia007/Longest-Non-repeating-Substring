@@ -25,7 +25,6 @@ body {
     color: rgb(106, 228, 201);
     background:  black;
     border-radius: 8px;
-    /* border: 10px ridge #ecaf76; */
     border: 10px ridge rgb(106, 228, 201);
 }
 .ls-intro {
@@ -77,6 +76,7 @@ body {
 @media screen and (max-width: 825px) {
     .long-container {
         width: 80%;
+        margin: auto;
     }
     .ls-intro,
     .lsEval {
@@ -101,7 +101,7 @@ body {
     }
     body {
         position: relative;
-    }
+    } 
     .long-container {
         min-width: 340px;
         height: 420px;
